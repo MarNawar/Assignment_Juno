@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/cd7326beb9.js" crossorigin="anonymous"></script>
+  <title> Test Assignment</title>
+  <link rel= "stylesheet" type="text/css" href="styles.css"></link>
+</head>
+<body>
+  <main>
+    <div class="filter">
+      <input type="text" placeholder="Search">
+      <div class="select-menu reasonMenu">
+        <div class="select menu">
+          <span>Trigger Reason</span>
+          <i class="fas fa-angle-down"></i>
+        </div>
+        <div class="options-list reasons">
+          <div class="option reason">Hard Flag</div>
+          <div class="option reason">Temp Flag</div>
+          <div class="option reason">Restricted Unflag</div>
+          <div class="option reason">Un Flag</div>
+          <div class="option reason">Reviewed</div>
+        </div>
+      </div>
+      <div class="select-menu riskMenu">
+        <div class="select level">
+          <span>Risk Level</span>
+          <i class="fas fa-angle-down"></i>
+        </div>
+        <div class="options-list risks">
+          <div class="option risk">Low</div>
+          <div class="option risk">Medium</div>
+          <div class="option risk">Hard</div>
+        </div>
+      </div>
+    </div>
+    <section class="bodysection">
+      <table>
+        <thead class="theading">
+          <th style="width: 270px;
+            padding-left: 15px;
+          ">User</th>
+          <th>Risk Level</th>
+          <th>Action reason</th>
+          <th>Time to close</th>
+          <th>Date added on</th>
+          <th>Action taken by</th>
+        </thead>
+        <tbody class="trows">
+        </tbody>
+      </table>
+    </section>
+  </main>
+  <header class="header">
+    <div class="pagetype">Monitoring</div>
+      <div class="statusbutton">
+        <div><button class="btn btnColor clickpending">Pending</button></div>
+        <div><button class="btn clickcomplete"> Complete</button></div>
+      </div>
+      <button class="closeAccountBtn"><i class="fa-sharp fa-solid fa-times"></i> close account</button>
+    </div>
+  </header>
+  <div class="sidebar">
+    <div>
+      <div class="container">
+        <div><img src="images/logo.png" alt="Logo" class="logo"></div>
+        <div><button class="items">Overview</button></div>
+        <div><button class="items">Onbording</button></div>
+        <div><button class="items itemsfocus">Monitoring</button></div>
+        <div><button class="items">Flagging</button></div>
+        <div><button class="items">Source of Income</button></div>
+        <div><button class="items">UAR</button></div>
+      </div>
+    </div>
+    <div class="user">
+      <div><img class="pic" src="images/cat.jpg"></div>
+      <div style="margin-left:10px">
+        <div class="username">Elon Musk</div>
+        <div class="userid">elonmusk@twitter.com</div>
+      </div>
+    </div>
+  </div>
+    <div class="modal__wrapper">
+        <div class="modal__container">
+        <h3>
+        Close account
+        </h3>
+        <button class="close">&times;</button>
+        <form id="modal_Form">
+  <label class="form_field_label" for="email">Email</label>
+    <br>
+  <select class="form_select" id="email" name="email">
+    <option value="example1@example.com">example1@example.com</option>
+    <option value="example2@example.com">example2@example.com</option>
+    <option value="example3@example.com">example3@example.com</option>
+  </select>
+  <br>
+    <div class="form_field">
+  <div class="form_field_label">
+  <label>Want to file UAR</label>
+  </div>
+  <div class="form_field_values">
+    <input type="radio" id="yes" name="yesno" value="yes">
+  <label for="yes">Yes</label>
+  <input type="radio" id="no" name="yesno" value="no">
+  <label for="no">No</label>
+  </div>
+  </div>
+  <label class="form_field_label" for="reason">Reason</label>
+    <br>
+  <select class="form_select" id="reason" name="reason">
+    <option value="option1">Option 1</option>
+    <option value="option2">Option 2</option>
+    <option value="option3">Option 3</option>
+  </select>
+  <br>
+  <label class="form_field_label" for="notes">Notes</label>
+    <br>
+  <textarea class="form_notes" id="notes" name="notes" rows="4" cols="50"></textarea>
+  <br>
+</form>
+            <div class="action">
+            <div class="form_footer">
+              <input type="radio" style="width:30px" id="yes" name="yes" value="yes">
+  <label for="yes">Charge closure fee</label>
+            </div>
+                <button class="btn__purple">Close Account</button>
+            </div>
+        </div>
+    </div>
+
+  <script src="script.js"></script>
+</body>
+</html> 

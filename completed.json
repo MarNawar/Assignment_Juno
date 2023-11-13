@@ -1,0 +1,86 @@
+{
+  "heading":[
+    {
+      "user":"User",
+      "risk": "Risk Level",
+      "reason": "Action reason",
+      "time": "Time to close",
+      "Date added on": "Date added on",
+      "update": "Action taken by"
+    }
+  ],
+  "rows":[
+    {
+      "user":{"name":"Sam Altman",
+        "id": "samaltman123@email.com"
+      },
+      "risk": "Medium",
+      "reason": "Flagged",
+      "time": "14 days",
+      "Date added on": "12 oct 2023",
+      "update": {"name":"Neil",
+          "id": "neil@onjuno.com"
+      }
+    },
+    {
+      "user":{"name":"Sameer Choubey",
+        "id": "sameerchoubey123@email.com"
+      },
+      "risk": "High",
+      "reason": "Closed",
+      "time": "14 days",
+      "Date added on": "12 oct 2023",
+      "update": {"name":"Pratik",
+          "id": "pratik@onjuno.com"
+      }
+    },
+    {
+      "user":{"name":"Adarsh Panikkar",
+        "id": "adarsh@juno.com"
+      },
+      "risk": "Low",
+      "reason": "Cleared",
+      "time": "15 days",
+      "Date added on": "12 oct 2023",
+      "update": {"name":"Prashanth",
+          "id": "prashanth@onjuno.com"
+      }
+    },
+    {
+      "user":{"name":"Pratik Shetty",
+        "id": "pratik3@email.com"
+      },
+      "risk": "High",
+      "reason": "SOI requested",
+      "time": "15 days",
+      "Date added on": "12 oct 2023",
+      "update": {"name":"Rasleen Kaur",
+          "id": "rasleen@onjuno.com"
+      }
+    },
+    {
+      "user":{"name":"Elon Musk",
+        "id": "elonmusk@x.com"
+      },
+      "risk": "Low",
+      "reason": "Flagged",
+      "time": "15 days",
+      "Date added on": "12 oct 2023",
+      "update": {"name":"Rasleen Kaur",
+          "id": "rasleen@onjuno.com"
+      }
+    },
+    {
+      "user":{"name":"Trina Kundu",
+        "id": "trina@onjuno.com"
+      },
+      "risk": "Low",
+      "reason": "Closed",
+      "time": "15 days",
+      "Date added on": "12 oct 2023",
+      "update": {"name":"Varun Deshpande",
+          "id": "varun@onjuno.com"
+      }
+    }
+  ]
+}

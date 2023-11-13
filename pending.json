@@ -1,0 +1,86 @@
+{
+  "heading":[
+    {
+      "user":"User",
+      "risk": "Risk Level",
+      "reason": "Trigger reason",
+      "time": "In queue for",
+      "Date added on": "Date added on",
+      "update": "Previously reviewed"
+    }
+  ],
+  "rows":[
+    {
+      "user":{"name":"Sam Altman",
+        "id": "samaltman123@email.com"
+      },
+      "risk": "Medium",
+      "reason": "FIFO",
+      "time": "4 days",
+      "Date added on": "12 oct 2023",
+      "update": {"name":"No",
+          "id": ""
+      }
+    },
+    {
+      "user":{"name":"Sameer Choubey",
+        "id": "sameerchoubey123@email.com"
+      },
+      "risk": "High",
+      "reason": "Ip change",
+      "time": "4 days",
+      "Date added on": "12 oct 2023",
+      "update": {"name":"Yes",
+          "id": "12 oct 2023"
+      }
+    },
+    {
+      "user":{"name":"Adarsh Panikkar",
+        "id": "adarsh@juno.com"
+      },
+      "risk": "Low",
+      "reason": "Ip change",
+      "time": "5 days",
+      "Date added on": "12 oct 2023",
+      "update": {"name":"No",
+          "id": ""
+      }
+    },
+    {
+      "user":{"name":"Pratik Shetty",
+        "id": "pratik3@email.com"
+      },
+      "risk": "High",
+      "reason": "FIFO",
+      "time": "5 days",
+      "Date added on": "12 oct 2023",
+      "update": {"name":"Yes",
+          "id": "12 oct 2023"
+      }
+    },
+    {
+      "user":{"name":"Elon Musk",
+        "id": "elonmusk@x.com"
+      },
+      "risk": "Low",
+      "reason": "FIFO",
+      "time": "5 days",
+      "Date added on": "12 oct 2023",
+      "update": {"name":"Yes",
+          "id": "12 oct 2023"
+      }
+    },
+    {
+      "user":{"name":"Trina Kundu",
+        "id": "trina@onjuno.com"
+      },
+      "risk": "Low",
+      "reason": "FIFO",
+      "time": "5 days",
+      "Date added on": "12 oct 2023",
+      "update": {"name":"Yes",
+          "id": "12 oct 2023"
+      }
+    }
+  ]
+}
